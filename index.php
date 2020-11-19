@@ -5,7 +5,13 @@ if(){//show feedback
 
 }
 else{//show form
-    echo'This is a form yay?';
+    echo'
+    <p>This is a form yay?</p>
+    <form action=''>
+    
+    </form>
+    
+    ';
 }
 
 
