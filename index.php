@@ -5,7 +5,7 @@ if(){//show feedback
 
 }
 else{//show form
-    echo'
+    echo '
     <p>This is a form yay?</p>
     <form action=''>
     First Name: <input type="text">
