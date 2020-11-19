@@ -1,8 +1,8 @@
 <?php
 //echo 'This is PHP!';
 //echo 'you are such a big fart looozer';
-if(){//show feedback
-
+if(isset($_GET["FirstName"])){//show feedback
+echo $_GET["FirstName"];
 }
 else{//show form
     echo '
@@ -10,7 +10,7 @@ else{//show form
     <form action=''>
     First Name: <input type="text" name="FirstName" placeholder="First Name" /><br />
     </form>
-    
+    <input type="submit" />
     ';
 }
 
