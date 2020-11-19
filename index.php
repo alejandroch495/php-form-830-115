@@ -8,7 +8,7 @@ else{//show form
     echo'
     <p>This is a form yay?</p>
     <form action=''>
-    
+    First Name: <input type="text">
     </form>
     
     ';
