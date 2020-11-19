@@ -1,10 +1,8 @@
 <?php
-
-echo 'This is PHP!';
-
+//echo 'This is PHP!';
+//echo 'you are such a big fart looozer';
 
 
 
 
 ?>
-<p>this is HTML</p>
