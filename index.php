@@ -13,7 +13,16 @@ else{//show form
     <p>First Name:<input type="text" name="FirstName" placeholder="First Name" /></p>
     <p>Last Name:<input type="text" name="LastName" placeholder="Last Name" /></p>
     <p>E-mail:<input type="text" name="Email" placeholder="Email" /></p>
-    <p>you like cheese?<br /><input type="radio" name="yes" placeholder="yes" value="yes"/>yes <input type="radio" name="no" placeholder="no" value="no" />no </p>
+    
+    <p>you like cheese?<br />
+    <input type="radio" name="likeCheese" placeholder="yes" value="yes"/>yes 
+    <input type="radio" name="likeCheese" placeholder="no" value="no" />no 
+    </p>
+
+    <p>you like Peanut butter?<br />
+    <input type="radio" name="likePB" placeholder="yes" value="yes"/>yes 
+    <input type="radio" name="likePB" placeholder="no" value="no" />no 
+    </p>
     
     <br />
 
