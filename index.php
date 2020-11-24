@@ -10,9 +10,10 @@ echo '</pre>';
 }
 else{//show form
     echo '<p>This is a form yay?</p><form action=""> 
-    <p><input type="text" name="FirstName" placeholder="First Name" />First Name:</p>
-    <p><input type="text" name="LastName" placeholder="Last Name" />Last Name</p>
-    <p><input type="text" name="Email" placeholder="Email" /></p>
+    <p>First Name:<input type="text" name="FirstName" placeholder="First Name" /></p>
+    <p>Last Name:<input type="text" name="LastName" placeholder="Last Name" /></p>
+    <p>E-mail:<input type="text" name="Email" placeholder="Email" /></p>
+    <p>you like cheese?<input type="radio" name="yes" placeholder="yes" />yes <input type="radio" name="no" placeholder="no" />no </p>
     
     <br />
 
