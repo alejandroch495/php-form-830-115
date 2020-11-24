@@ -9,7 +9,14 @@ echo '</pre>';
 
 }
 else{//show form
-    echo '<p>This is a form yay?</p><form action="">First Name: <input type="text" name="FirstName" placeholder="First Name" /><br />
+    echo '<p>This is a form yay?</p><form action=""> 
+    <p><input type="text" name="FirstName" placeholder="First Name" />First Name:</p>
+    <p><input type="text" name="LastName" placeholder="Last Name" />Last Name</p>
+    <p><input type="text" name="Email" placeholder="Email" /></p>
+    
+    <br />
+
+
     <input type="submit"  /></form>
     
     ';
